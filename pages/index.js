@@ -87,6 +87,14 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
+
+        .hamburger * {
+          --darkreader-inline-fill: green;
+        }
+        .hamburger:hover * {
+          fill: red !important;
+        }
+
       `}</style>
     </div>
   )
